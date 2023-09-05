@@ -1,0 +1,32 @@
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: -0.5rem auto;
+    text-align: center;
+}
+
+.list{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.styledTable{
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styledTable th, td{
+     /* border: 1px solid darkgray; */
+     padding: 10px;
+     text-align: center;
+}
+
+tr:nth-child(odd){
+    background-color: #CCC;
+}
+
+td:first-child{
+    background-color: yellow;
+}
+
